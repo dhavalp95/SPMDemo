@@ -5,6 +5,6 @@ public struct SPMDemo {
     }
     
     public func loginCheck(username: String, password: String) -> String {
-        return (username == "Test" && password == "123") ? "Success" : "Please enter valid username and password!!"
+        return (username == "John" && password == "123") ? "Success" : "Fail!!"
     }
 }
